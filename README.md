@@ -138,3 +138,18 @@ From the mock output, we observe that <strong>ECs (Account Executives)</strong> 
 
 <hr>
 
+
+## 🔍 Libraries and Metrics Used
+
+This analysis utilizes specific libraries and metrics that are crucial for the efficient execution of the script and the quality of the produced analysis. Below are explanations for the main libraries and metrics used:
+
+| Library/Metric    | Description |
+|-------------------|-------------|
+| **Pandas**        | The Pandas library is used for data manipulation and analysis, providing flexible and efficient data structures that make it easier to work with tabular data. It allows for reading Excel files, cleaning data, and performing aggregation operations. |
+| **OpenPyXL**      | This library is employed to read and write Excel files (.xlsx). It is essential for exporting the analysis results into an accessible and user-friendly format. |
+| **GroupBy**       | The groupby function in Pandas allows for organizing data into groups based on one or more columns. It is essential for calculating averages and counts, such as the average age by quartile and role. |
+| **Mean**          | Used to calculate the average ages by quartile, this metric provides a clear and quantitative view of the average age of employees across different performance levels. |
+| **Count**         | Counting employees by group (quartile) supplies context about the analyzed sample, allowing for the assessment of the representativeness of the data in average calculations. |
+
+These libraries and metrics were chosen for their robust functionalities and their ability to facilitate complex data analysis clearly and effectively. The combination of them allows for meaningful insights into the relationship between age and employee performance.
+
